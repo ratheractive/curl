@@ -1,4 +1,3 @@
 FROM alpine:3.13.4
 
-RUN apk add curl bash
-
+RUN apk add curl bash musl
