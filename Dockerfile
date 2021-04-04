@@ -1,3 +1,3 @@
-FROM alpine:3.13.4
+FROM debian:stable-slim
 
-RUN apk add curl bash musl
+RUN apt-get update && apt-get install -y curl && apt-get clean
